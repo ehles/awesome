@@ -1,5 +1,9 @@
 # Awesome tools
 
+## Onliners
+
+[One line scripts](./oneline.md)
+
 ## Console tools
 
 * [bat](https://github.com/sharkdp/bat) - A cat(1) clone with syntax highlighting and Git integration.
@@ -10,6 +14,9 @@
 * [hyperfine](https://github.com/sharkdp/hyperfine) - A command-line benchmarking tool.
 * [ripgrep](https://github.com/BurntSushi/ripgrep) - ripgrep is a line-oriented search tool that recursively searches the current directory for a regex pattern.
 * [skim](https://github.com/lotabout/skim) - Half of our life is spent on navigation: files, lines, commands… You need skim! It is a general fuzzy finder that saves you time. (Rust alternative for fzf)
+* [js](https://github.com/kellyjonbrazil/jc) - CLI tool and python library that converts the output of popular command-line tools, file-types, and common strings to JSON, YAML, or Dictionaries. This allows piping of output to tools like jq and simplifying automation scripts.
+* [exa](https://github.com/ogham/exa) - A modern replacement for ‘ls’.
+* [tre](https://github.com/dduan/tre) - Tree command, improved.
 
 ## HTTP load generators and benchmarks
 
@@ -19,11 +26,15 @@
 
 ## Auxiliary
 
-* [broot](https://github.com/Canop/broot) - A new way to see and navigate directory trees.
 * [goreleaser](https://github.com/goreleaser/goreleaser) - GoReleaser builds Go binaries for several platforms, creates a GitHub release and then pushes a Homebrew formula to a tap repository. All that wrapped in your favorite CI.
 * [pywal](https://github.com/dylanaraps/pywal) - Generate and change color-schemes on the fly.
 * [slides](https://github.com/maaslalani/slides) - Slides in your terminal.
 * [watchman](https://github.com/facebook/watchman) - Watchman exists to watch files and record when they actually change. It can also trigger actions (such as rebuilding assets) when matching files change.
+* [z](https://github.com/rupa/z) - jump around
+* [fz](https://github.com/changyuheng/fz.sh) - Cli shell plugin, the missing fuzzy tab completion feature for the z jump around command.
+* [zoxide](https://github.com/ajeetdsouza/zoxide) - A smarter cd command. Supports all major shells.
+* [broot](https://github.com/Canop/broot) - A new way to see and navigate directory trees.
+* [lnav](https://github.com/tstack/lnav) - Log file navigator
 
 ## NVim
 
@@ -37,3 +48,7 @@
 * [alacrity](https://github.com/alacritty/alacritty) - Alacritty - A fast, cross-platform, OpenGL terminal emulator
 * [kitty](https://github.com/kovidgoyal/kitty) - Cross-platform, fast, feature-rich, GPU based terminal.
 * [wezterm](https://github.com/wez/wezterm) - A GPU-accelerated cross-platform terminal emulator and multiplexer written by @wez and implemented in Rust.
+
+## TOPs
+
+* [btop](https://github.com/aristocratos/btop) - A monitor of resources
