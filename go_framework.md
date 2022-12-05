@@ -11,6 +11,5 @@
 ## Aux
 
 * [aegis](https://github.com/tohjustin/aegis) - Badge generation service
-* [](https://github.com/essentialkaos/updown-badge-server) - Service for generating badges for updown.io checks
 * [go-badge](https://github.com/essentialkaos/go-badge) - Go package for generating SVG badges+
 * [shields](https://github.com/badges/shields) - Concise, consistent, and legible badges in SVG and raster format
