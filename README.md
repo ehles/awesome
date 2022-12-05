@@ -3,7 +3,7 @@
 ## awesome categories
 
 * [One line scripts](./oneline.md)
-* [GUI toold](./gui.md)
+* [GUI tools](./gui.md)
 * [Golang frameworks](./go_framework.md)
 
 ## Console tools
