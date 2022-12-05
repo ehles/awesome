@@ -2,9 +2,9 @@
 
 ## awesome categories
 
-[One line scripts](./oneline.md)
-[GUI toold](./gui.md)
-[Golang frameworks](./go_framework.md)
+* [One line scripts](./oneline.md)
+* [GUI toold](./gui.md)
+* [Golang frameworks](./go_framework.md)
 
 ## Console tools
 
