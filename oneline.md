@@ -8,7 +8,7 @@ ssh remote 'tcpdump -U -i eth0 -w - not tcp port 22' | wireshark -k -i -
 
 ---
 
-pbcopy will allow you to copy the output of a command right into your clipboard. Vice-versa for pbpaste — it will allow you to paste your clipboard right into your terminal.
+Mac: pbcopy will allow you to copy the output of a command right into your clipboard. Vice-versa for pbpaste — it will allow you to paste your clipboard right into your terminal.
 
 ```bash
 # This will copy all the content within a file.

@@ -1,13 +1,10 @@
 # Awesome tools
 
-## Onliners
+## awesome categories
 
 [One line scripts](./oneline.md)
-
-## GUI tools
-
-* [Obsidian](https://obsidian.md/) - Obsidian is a powerful and extensible knowledge base
-that works on top of your local folder of plain text files
+[GUI toold](./gui.md)
+[Golang frameworks](./go_framework.md)
 
 ## Console tools
 
@@ -26,12 +23,17 @@ that works on top of your local folder of plain text files
 * [dive](https://github.com/wagoodman/dive) - A tool for exploring each layer in a docker image
 * [air](https://github.com/cosmtrek/air) - ☁️ Live reload for Go apps
 * [task](https://github.com/go-task/task) - A task runner / simpler Make alternative written in Go
+* [pvw](https://github.com/allyring/pvw) - A port viewer TUI made with BubbleTea in Go
+* [jqp](https://github.com/noahgorstein/jqp) - A TUI playground to experiment with jq
+* [atuin](https://github.com/ellie/atuin) - Atuin replaces your existing shell history with a SQLite database, and records additional context for your commands
+* [difftastic](https://github.com/Wilfred/difftastic) - a structural diff that understands syntax 🟥🟩
 
 ## HTTP load generators and benchmarks
 
 * [ab](https://httpd.apache.org/docs/2.4/programs/ab.html) - Apache HTTP server benchmarking tool
 * [hey](https://github.com/rakyll/hey) - HTTP load generator, ApacheBench (ab) replacement
 * [wrk](https://github.com/wg/wrk) - a HTTP benchmarking tool
+* [shellcheck](https://github.com/koalaman/shellcheck) - ShellCheck, a static analysis tool for shell scripts
 
 ## Auxiliary
 
@@ -48,8 +50,9 @@ that works on top of your local folder of plain text files
 * [chat](https://github.com/cheat/cheat) - cheat allows you to create and view interactive cheatsheets on the command-line. It was designed to help remind *nix system administrators of options for commands that they use frequently, but not frequently enough to remember
 * [NSQ](https://github.com/nsqio/nsq) - A realtime distributed messaging platform
 * [NATS](https://github.com/nats-io/nats-streaming-server) - NATS Streaming System Server
-
-
+* [cheat.sh](https://github.com/chubin/cheat.sh) - the only cheat sheet you need
+* [croc](https://github.com/schollz/croc) - Easily and securely send things from one computer to another 🐊 📦
+* [eget](https://github.com/zyedidia/eget) - Easily install prebuilt binaries from GitHub.
 
 ## NVim
 
@@ -66,6 +69,7 @@ that works on top of your local folder of plain text files
 * [alacrity](https://github.com/alacritty/alacritty) - Alacritty - A fast, cross-platform, OpenGL terminal emulator
 * [kitty](https://github.com/kovidgoyal/kitty) - Cross-platform, fast, feature-rich, GPU based terminal.
 * [wezterm](https://github.com/wez/wezterm) - A GPU-accelerated cross-platform terminal emulator and multiplexer written by @wez and implemented in Rust.
+* [fig](https://github.com/withfig/autocomplete) - IDE-style autocomplete for your existing terminal & shell
 
 ## TOPs
 
