@@ -5,6 +5,7 @@
     - [Установка](#установка)
     - [inotifywatch](#inotifywatch)
     - [inotifywait](#inotifywait)
+  - [Тестирование IOPS дисков в Linux](#тестирование-iops-дисков-в-linux)
 
 ---
 
@@ -65,4 +66,20 @@ do
     make_action $DIR $FILE
 done
 )
+```
+
+## Тестирование IOPS дисков в Linux
+
+```bash
+# Тест случайных операций на чтение/запись
+fio --randrepeat=1 --ioengine=libaio --direct=1 --gtod_reduce=1 --name=fiotest --filename=testfio --bs=4k --iodepth=64 --size=8G --readwrite=randrw --rwmixread=75
+
+# Тест случайных операций на чтение
+fio --randrepeat=1 --ioengine=libaio --direct=1 --gtod_reduce=1 --name=fiotest --filename=testfio --bs=4k --iodepth=64 --size=8G --readwrite=randread
+
+# Тест случайных операций на запись
+fio --randrepeat=1 --ioengine=libaio --direct=1 --gtod_reduce=1 --name=fiotest --filename=fiotest --bs=4k --iodepth=64 --size=8G --readwrite=randwrite
+
+# Проверка latency диска с помощью ioping
+ioping -c 20 /tmp/
 ```

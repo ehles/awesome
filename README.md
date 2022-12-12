@@ -6,9 +6,11 @@
   - [HTTP load generators and benchmarks](#http-load-generators-and-benchmarks)
   - [Auxiliary](#auxiliary)
   - [NVim](#nvim)
+  - [Tmux](#tmux)
   - [Terminal](#terminal)
     - [Terminal shugar](#terminal-shugar)
   - [TOPs](#tops)
+  - [Other awesome](#other-awesome)
 
 ## awesome categories
 
@@ -16,6 +18,7 @@
 - [GUI tools](./gui.md)
 - [Golang frameworks](./go_framework.md)
 - [Common linux tools](./linux.md)
+- [Web](./web.md)
 
 ## Console tools
 
@@ -38,6 +41,7 @@
 - [jqp](https://github.com/noahgorstein/jqp) - A TUI playground to experiment with jq
 - [atuin](https://github.com/ellie/atuin) - Atuin replaces your existing shell history with a SQLite database, and records additional context for your commands
 - [difftastic](https://github.com/Wilfred/difftastic) - a structural diff that understands syntax 🟥🟩
+- [duf](https://github.com/muesli/duf) - Disk Usage/Free Utility - a better 'df' alternative
 
 ## HTTP load generators and benchmarks
 
@@ -75,6 +79,12 @@
 - [NvChad](https://github.com/NvChad/NvChad) - An attempt to make neovim cli functional like an IDE while being very beautiful, blazing fast startuptime ~ 14ms to 67ms
 - [lunarvim](https://github.com/lunarvim/lunarvim) - LunarVim is an IDE layer for Neovim. Completely free and community driven
 
+## Tmux
+
+- [tpm](https://github.com/tmux-plugins/tpm) - Tmux Plugin Manager
+- [powerline](https://github.com/powerline/powerline) - Powerline is a statusline plugin for vim, and provides statuslines and prompts for several other applications, including zsh, bash, tmux, IPython, Awesome and Qtile.
+- [tmuxinator](https://github.com/tmuxinator/tmuxinator) - Manage complex tmux sessions easily
+****
 ## Terminal
 
 - [alacrity](https://github.com/alacritty/alacritty) - Alacritty - A fast, cross-platform, OpenGL terminal emulator
@@ -90,3 +100,10 @@
 ## TOPs
 
 - [btop](https://github.com/aristocratos/btop) - A monitor of resources
+- [gotop](https://github.com/xxxserxxx/gotop) - A terminal based graphical activity monitor inspired by gtop and vtop
+
+
+## Other awesome
+
+- [awesome tmux](https://github.com/rothgar/awesome-tmux) - A list of awesome resources for tmux
+

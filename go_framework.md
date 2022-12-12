@@ -20,3 +20,5 @@
 - [aegis](https://github.com/tohjustin/aegis) - Badge generation service
 - [go-badge](https://github.com/essentialkaos/go-badge) - Go package for generating SVG badges+
 - [shields](https://github.com/badges/shields) - Concise, consistent, and legible badges in SVG and raster format
+- [goterm](https://github.com/buger/goterm) - Advanced terminal output in Go
+- [goreplay](https://github.com/buger/goreplay) - GoReplay is an open-source tool for capturing and replaying live HTTP traffic into a test environment in order to continuously test your system with real data. It can be used to increase confidence in code deployments, configuration changes and infrastructure changes.
