@@ -11,6 +11,7 @@
     - [Terminal shugar](#terminal-shugar)
   - [TOPs](#tops)
   - [Other awesome](#other-awesome)
+  - [Fun](#fun)
 
 ## awesome categories
 
@@ -32,7 +33,8 @@
 - [skim](https://github.com/lotabout/skim) - Half of our life is spent on navigation: files, lines, commands… You need skim! It is a general fuzzy finder that saves you time. (Rust alternative for fzf)
 - [httpie-go](https://github.com/nojima/httpie-go) - httpie-like HTTP client written in Go
 - [js](https://github.com/kellyjonbrazil/jc) - CLI tool and python library that converts the output of popular command-line tools, file-types, and common strings to JSON, YAML, or Dictionaries. This allows piping of output to tools like jq and simplifying automation scripts.
-- [exa](https://github.com/ogham/exa) - A modern replacement for ‘ls’.
+- [exa](https://github.com/ogham/exa) - A modern replacement for `ls`.
+- [lsd](https://github.com/Peltoche/lsd) - The next gen `ls` command.
 - [tre](https://github.com/dduan/tre) - Tree command, improved.
 - [dive](https://github.com/wagoodman/dive) - A tool for exploring each layer in a docker image
 - [air](https://github.com/cosmtrek/air) - ☁️ Live reload for Go apps
@@ -78,13 +80,14 @@
 - [vim-plug](https://github.com/junegunn/vim-plug) - A minimalist Vim plugin manager.
 - [NvChad](https://github.com/NvChad/NvChad) - An attempt to make neovim cli functional like an IDE while being very beautiful, blazing fast startuptime ~ 14ms to 67ms
 - [lunarvim](https://github.com/lunarvim/lunarvim) - LunarVim is an IDE layer for Neovim. Completely free and community driven
+- [NvChad](https://github.com/NvChad/NvChad) - An attempt to make neovim cli functional like an IDE while being very beautiful, blazing fast startuptime ~ 14ms to 67ms
 
 ## Tmux
 
 - [tpm](https://github.com/tmux-plugins/tpm) - Tmux Plugin Manager
 - [powerline](https://github.com/powerline/powerline) - Powerline is a statusline plugin for vim, and provides statuslines and prompts for several other applications, including zsh, bash, tmux, IPython, Awesome and Qtile.
 - [tmuxinator](https://github.com/tmuxinator/tmuxinator) - Manage complex tmux sessions easily
-****
+
 ## Terminal
 
 - [alacrity](https://github.com/alacritty/alacritty) - Alacritty - A fast, cross-platform, OpenGL terminal emulator
@@ -96,14 +99,25 @@
 
 - [zsh-autocomplete](https://github.com/marlonrichert/zsh-autocomplete) - 🤖 Real-time type-ahead completion for Zsh. Asynchronous find-as-you-type autocompletion.
 - [znap](https://github.com/marlonrichert/zsh-snap) - ⚡️ Znap! Fast, easy-to-use tools for Zsh dotfiles & plugins, plus git repos
+- [Oh My Posh](https://github.com/JanDeDobbeleer/oh-my-posh) - A prompt theme engine for any shell.
+- [powerlevel10k](https://github.com/romkatv/powerlevel10k) - A Zsh theme
+- [antigen](https://github.com/zsh-users/antigen) - The plugin manager for zsh.
+- [zsh-autosuggestions](https://github.com/zsh-users/zsh-autosuggestions) - Fish-like autosuggestions for zsh
+- [zsh-syntax-highlighting](https://github.com/zsh-users/zsh-syntax-highlighting) - Fish shell like syntax highlighting for Zsh.
+- [antigen](https://github.com/zsh-users/antigen) - The plugin manager for zsh.
 
 ## TOPs
 
 - [btop](https://github.com/aristocratos/btop) - A monitor of resources
 - [gotop](https://github.com/xxxserxxx/gotop) - A terminal based graphical activity monitor inspired by gtop and vtop
 
-
 ## Other awesome
 
 - [awesome tmux](https://github.com/rothgar/awesome-tmux) - A list of awesome resources for tmux
+- [Nerd Fonts](https://www.nerdfonts.com/) - Iconic font aggregator, collection, and patcher
 
+
+## Fun
+
+- [cmatrix](https://github.com/abishekvashok/cmatrix) - Terminal based "The Matrix" like implementation.
+-

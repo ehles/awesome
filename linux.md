@@ -1,20 +1,21 @@
 # Common linux tools
 
 - [Common linux tools](#common-linux-tools)
-  - [Inotify ловим изменения файловой системы](#inotify-ловим-изменения-файловой-системы)
-    - [Установка](#установка)
+  - [Inotify catch file system events](#inotify-catch-file-system-events)
+    - [Installation](#installation)
     - [inotifywatch](#inotifywatch)
     - [inotifywait](#inotifywait)
   - [Тестирование IOPS дисков в Linux](#тестирование-iops-дисков-в-linux)
+  - [Other](#other)
 
 ---
 
-## Inotify ловим изменения файловой системы
+## Inotify catch file system events
 
 - **inotifywait**
 - **inotifywatch**
 
-### Установка
+### Installation
 
 ```bash
 apt-get install inotify-tools
@@ -29,7 +30,7 @@ inotifywatch -r -t 3 /root/tmp
 
 ### inotifywait
 
-Мониторинг событий
+Event monitoring
 
 ```bash
 #!/bin/bash
@@ -83,3 +84,7 @@ fio --randrepeat=1 --ioengine=libaio --direct=1 --gtod_reduce=1 --name=fiotest -
 # Проверка latency диска с помощью ioping
 ioping -c 20 /tmp/
 ```
+
+## Other
+
+- **script** - command in Linux is used to make typescript or record all the terminal activities.
