@@ -32,6 +32,7 @@
 - [ripgrep](https://github.com/BurntSushi/ripgrep) - ripgrep is a line-oriented search tool that recursively searches the current directory for a regex pattern.
 - [skim](https://github.com/lotabout/skim) - Half of our life is spent on navigation: files, lines, commands… You need skim! It is a general fuzzy finder that saves you time. (Rust alternative for fzf)
 - [httpie-go](https://github.com/nojima/httpie-go) - httpie-like HTTP client written in Go
+- [xh](https://github.com/ducaale/xh) - xh is a friendly and fast tool for sending HTTP requests. It reimplements as much as possible of HTTPie's excellent design, with a focus on improved performance.
 - [js](https://github.com/kellyjonbrazil/jc) - CLI tool and python library that converts the output of popular command-line tools, file-types, and common strings to JSON, YAML, or Dictionaries. This allows piping of output to tools like jq and simplifying automation scripts.
 - [exa](https://github.com/ogham/exa) - A modern replacement for `ls`.
 - [lsd](https://github.com/Peltoche/lsd) - The next gen `ls` command.
